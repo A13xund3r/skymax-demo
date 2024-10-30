@@ -56,6 +56,7 @@ int cInverter::GetMode() {
         case 'B': result = 4;   break;  // Battery
         case 'F': result = 5;   break;  // Fault
         case 'H': result = 6;   break;  // Power_Saving
+        case 'C': result = 7;   break;  // Battery charger
         default:  result = 0;   break;  // Unknown
     }
 
