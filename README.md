@@ -17,7 +17,7 @@ build/compilation procedure:
 ```
 git clone git://github.com/manio/skymax-demo.git
 cd skymax-demo
-cmake .. && make
+cmake . && make
 ```
 
 The code requires your inverter to be connected either via USB or RS323, and can be configured in the `inverter.conf` file... 
